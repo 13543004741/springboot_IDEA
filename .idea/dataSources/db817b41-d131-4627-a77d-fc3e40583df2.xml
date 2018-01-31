@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="test02@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.1">
+    <root id="1"/>
+    <schema id="2" parent="1" name="test02">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="bookingfilm"/>
+    <schema id="4" parent="1" name="book_system"/>
+    <schema id="5" parent="1" name="information_schema"/>
+    <schema id="6" parent="1" name="java_test"/>
+    <schema id="7" parent="1" name="mybatisDB"/>
+    <schema id="8" parent="1" name="mysql"/>
+    <schema id="9" parent="1" name="news_info"/>
+    <schema id="10" parent="1" name="order_system"/>
+    <schema id="11" parent="1" name="performance_schema"/>
+    <schema id="12" parent="1" name="rbpsDB"/>
+    <schema id="13" parent="1" name="redisDB"/>
+    <schema id="14" parent="1" name="red_packetsystem"/>
+    <schema id="15" parent="1" name="resultSet_Mapping"/>
+    <schema id="16" parent="1" name="shiro_demoDB"/>
+    <schema id="17" parent="1" name="springbootDB"/>
+    <schema id="18" parent="1" name="springmvcDB"/>
+    <schema id="19" parent="1" name="struts_login"/>
+    <schema id="20" parent="1" name="student_information"/>
+    <schema id="21" parent="1" name="student_manager"/>
+    <schema id="22" parent="1" name="test"/>
+    <schema id="23" parent="1" name="test01"/>
+    <schema id="24" parent="1" name="velocityDB"/>
+    <schema id="25" parent="1" name="vote_info"/>
+    <table id="26" parent="2" name="USER_INFO"/>
+    <column id="27" parent="26" name="ID">
+      <Position>1</Position>
+      <DataType>int(10)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="28" parent="26" name="USER_NAME">
+      <Position>2</Position>
+      <DataType>varchar(200)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="29" parent="26" name="PASSWORD">
+      <Position>3</Position>
+      <DataType>varchar(200)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="30" parent="26" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

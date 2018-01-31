@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="springbootDB@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.1">
+    <root id="1"/>
+    <schema id="2" parent="1" name="springbootDB">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="bookingfilm"/>
+    <schema id="4" parent="1" name="book_system"/>
+    <schema id="5" parent="1" name="information_schema"/>
+    <schema id="6" parent="1" name="java_test"/>
+    <schema id="7" parent="1" name="mybatisDB"/>
+    <schema id="8" parent="1" name="mysql"/>
+    <schema id="9" parent="1" name="news_info"/>
+    <schema id="10" parent="1" name="order_system"/>
+    <schema id="11" parent="1" name="performance_schema"/>
+    <schema id="12" parent="1" name="rbpsDB"/>
+    <schema id="13" parent="1" name="redisDB"/>
+    <schema id="14" parent="1" name="red_packetsystem"/>
+    <schema id="15" parent="1" name="resultSet_Mapping"/>
+    <schema id="16" parent="1" name="shiro_demoDB"/>
+    <schema id="17" parent="1" name="springmvcDB"/>
+    <schema id="18" parent="1" name="struts_login"/>
+    <schema id="19" parent="1" name="student_information"/>
+    <schema id="20" parent="1" name="student_manager"/>
+    <schema id="21" parent="1" name="test"/>
+    <schema id="22" parent="1" name="velocityDB"/>
+    <schema id="23" parent="1" name="vote_info"/>
+    <table id="24" parent="2" name="USER_INFO"/>
+    <column id="25" parent="24" name="ID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="26" parent="24" name="USER_NAME">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+      <DefaultExpression>&apos;user&apos;</DefaultExpression>
+    </column>
+    <column id="27" parent="24" name="PASSWORD">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+      <DefaultExpression>&apos;password&apos;</DefaultExpression>
+    </column>
+    <key id="28" parent="24" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

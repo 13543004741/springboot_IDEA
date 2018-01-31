@@ -1,0 +1,41 @@
+                        项目描述
+ch01
+    -test springboot入门（启动方式1）
+
+    -test2 springboot入门加强（启动方式2,静态资源访问）
+
+    -test3 springboot 全局捕获异常处理
+
+ch02
+    -test springboot集成freemarker（模板引擎）展示数据
+
+ch03
+    -test springboot集成jsp案例（idea暂时不支持）
+
+ch04
+    -test springboot集成jdbc
+
+ch05
+    -test springboot集成mybatis
+
+ch06
+    -test springboot集成jpa
+
+ch07
+    -test springboot集成事务管理
+
+ch08
+    -springboot 集成多数据源（插入的数据保存在不同的数据库）,集成log4j
+
+ch09
+    -springboot SpringBootJtaAutomatic分布式事物解决方案（集成多数据源）,使用aop统一处理web请求日志
+
+ch10
+    -springboot SpringBoot-EhCache缓存机制（减轻数据库压力）/使用@Scheduled创建定时任务/获取自定义参数/多环境获取自定义参数/修改端口号
+
+ch11
+    -springboot SpringBoot之yaml配置认识
+
+
+
+

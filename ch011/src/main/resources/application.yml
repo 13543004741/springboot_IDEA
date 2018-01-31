@@ -1,0 +1,5 @@
+#yaml配置认识server:server:
+
+  server:
+  port: 8090
+  context-path: /ch011
